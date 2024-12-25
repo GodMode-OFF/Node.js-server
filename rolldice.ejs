@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll Dice</title>
+</head>
+<body>
+    <h1>Dice gave value: <%= diceValue %></h1>
+    
+        <%if(diceValue == 6){ %>
+            <h2>Chakka! tum hoe.</h2>
+        <%}%>
+
+        <% for(let i = 0; i<diceValue; i++) { %>
+            <h2><%= i %></h2>
+        <%}%>
+</body>
+</html>
