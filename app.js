@@ -2,7 +2,7 @@ const express = require("express");
 const ejs = require("ejs");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
-
+// gotta use passport module for cookies and shi and bcrypt for encryption
 const app = express();
 
 port = 3000;
